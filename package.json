@@ -1,0 +1,15 @@
+{
+  "name": "eth-proxy-ngrok",
+  "version": "1.0.0",
+  "description": "Proxy RPC para Ethereum via Tenderly e Ngrok",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "ngrok": "^4.3.3",
+    "body-parser": "^1.20.2"
+  }
+}
